@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+:root {
+    --color-red: #F03C42;
+    --dark-blue: #222374;
+    --bg-light-grey: #CCCCCC;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+
+header{
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav h2 {
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+nav p {
+    color: var(--color-white);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    padding-right: 10px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#facilities {
+    background-color: var(--dark-blue);
+    color: var(--color-white);
+    height: 418px;
+    padding-top: 20px;
+    font: 32px;
+}
+
+.title {
+    font:32px;
+}
+
+.facilities-card {
+    background-color: var(--bg-light-grey);
+    color: var(--color-black);
+    border-radius: 8px;
+    padding: 20px;  
+    width: 960px;
+    height: 127px;
+    left: 120px;
+    top: 204px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#facilities h1 {
+    font-size: 32px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.facilities-card h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: var(--color-black);
+}
+
+.facilities-card p {
+    width: 920px;
+    height: 40px;
+    left: 140px;
+    top: 271px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#sports {
+    padding: 20px;
+}
+
+#sports h1 {
+    color: var(--color-red);
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.sports-card {
+    background-color: var(--dark-blue);
+    width: 960px;
+    height: 106px;
+    left: 120px;
+    top: 622px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sports-card h3 {
+    color: var(--color-white);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.sports-card p {
+    color: var(--bg-light-grey);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--color-black);
+    width: 100%;
+    height: 262px;
+    left: 0px;
+    top: 1398px;
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    padding-right: 10px;
+    align-items: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    text-align: center;
+    color: var(--color-white);
+    justify-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
